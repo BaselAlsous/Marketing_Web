@@ -1,0 +1,111 @@
+.reg .title {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custmer-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custmer-data .name,
+.custmer-data .password {
+    margin: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.custmer-data .name input:first-child,
+.custmer-data .password input:first-child {
+    margin-left: 40px;
+}
+
+.custmer-data .id-num,
+.custmer-data .phone,
+.custmer-data .email {
+    margin: 10px 0 ;
+}
+
+input {
+    margin: 10px 0;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color: #f5f5f5;
+    direction: rtl;
+    text-align: center;
+}
+
+input, .date select {
+    margin: 10px 0;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color: #f5f5f5;
+    direction: rtl;
+    text-align: center;
+}
+
+.date {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.date select {
+    margin: 10px 15px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color: #f5f5f5;
+    direction: rtl;
+    text-align: center;
+}
+
+.have-acc {
+    margin: 20px;
+    display: flex;
+}
+
+.have-acc input {
+    width: 20px;
+    height: 20px;
+}
+
+.signin {
+    visibility: hidden;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signin div {
+    margin: 10px;
+    height: 40px;
+}
+
+.done input {
+    background-color: #a39f9f;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    width: 150px;
+}
+
+.done input:hover {
+    background-color: #e7e3e3;
+    color: black;
+    transition: all 1.0s ease-in-out;
+    width: 300px;
+    border: 1px solid rgb(53, 52, 52);
+}
